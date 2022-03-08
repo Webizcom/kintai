@@ -3,7 +3,6 @@ body {
 }
 
 header {
-    max-width: 100%;
     background-color: #C691A5;
     font-weight: bold;
     font-size: 40px;
@@ -36,6 +35,7 @@ a {
 }
 
 span {
+    background-color: #c691a5;
     font-family: 'IM Fell DW Pica SC', serif;
     font-size: 20px;
     position: relative;
