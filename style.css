@@ -8,6 +8,7 @@ body {
     background-color: #C691A5;
     font-weight: bold;
     font-size: 1.5rem;
+    margin: 3rem 0;
 }
     
 a {
@@ -19,13 +20,14 @@ header {
     text-align: center;
     background-color: #C691A5;
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
 }
 
 .member {
     position: relative;
     top: 0;
-    width: 35rem;
+    width: 30rem;
 }
 
 .main-A {
@@ -43,7 +45,7 @@ span {
     position: absolute;
     text-align: center;
     top: -5rem;
-    left: 2rem;
+    left: 1.5rem;
 }
 
 .container {
@@ -54,7 +56,7 @@ span {
 .btn,
 a.btn,
 button.btn {
-    font-size: 1.8rem;
+    font-size: 1rem;
     font-weight: 700;
     line-height: 1.5;
     position: relative;
