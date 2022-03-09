@@ -4,7 +4,6 @@ body {
     
 .overtime-title {
     font-style: italic;
-    width: 45rem;
     text-align: center;
     background-color: #C691A5;
     font-weight: bold;
@@ -15,13 +14,8 @@ a {
     text-decoration: none;
 }
 
-.overtime-A, .overtime-B {
-    display: flex;
-}
-
 @media screen and ( max-width:479px ) {
 header {
-    width: 45rem;
     text-align: center;
     background-color: #C691A5;
     font-weight: bold;
@@ -30,7 +24,6 @@ header {
 
 .member {
     position: relative;
-    text-align: center;
     top: 0;
     width: 35rem;
 }
@@ -46,8 +39,11 @@ header {
 span {
     background-color: #c691a5;
     font-family: 'IM Fell DW Pica SC', serif;
-    font-size: 3rem;
-    position: relative;
+    font-size: 1.5rem;
+    position: absolute;
+    text-align: center;
+    top: -5rem;
+    left: 2rem;
 }
 
 .container {
