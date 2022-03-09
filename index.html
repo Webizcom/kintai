@@ -11,6 +11,26 @@
 </head>
 <body>
     <header>GREMEN<br>～出退勤らくら君～</header>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script language="JavaScript">
+        var date1 = new Date();
+        date1.setDate(date1.getDate() + 1);
+        var tomorrowmonth = date1.getMonth() + 1;
+        var tomorrowday = date1.getDate();
+        document.write(
+            "明日:"+tomorrowmonth + '月' + tomorrowday + '日'
+            );
+    </script>
+    <br>
+    <script language="JavaScript">
+        var date2 = new Date();
+        date2.setDate(date2.getDate() + 2);
+        var dayaftertomorrowmonth = date2.getMonth() + 1;
+        var dayaftertomorrowday = date2.getDate();
+        document.write(
+            "後明日:"+dayaftertomorrowmonth + '月' + dayaftertomorrowday + '日'
+            );
+    </script>
     <div class="main-A">
     <div class="member"><span>FUKUOKA</span>
         <div class="container">
@@ -55,12 +75,12 @@
     <br>
     <div class="member"><span>HIRAI</span>
         <div class="container">
-            <a href="mailto:gio-staff@mayass.com?subject=【出発】平井椋大&amp;body=お疲れ様です。平井椋大です。NTTマーケティングアクトに向けて出発致しました。業務開始時刻 09時00分です。" class="btn btn-border-shadow btn-border-shadow--color">
+            <a href="mailto:gio-staff@mayass.com?subject=【出発】平井椋太&amp;body=お疲れ様です。平井椋太です。NTTマーケティングアクトに向けて出発致しました。業務開始時刻 09時00分です。" class="btn btn-border-shadow btn-border-shadow--color">
                 出勤
             </a>
         </div>
         <div class="container">
-            <a href="mailto:gio-staff@mayass.com?subject=【退勤】平井椋大&amp;body=お疲れ様です。平井椋大です。NTTマーケティングアクトでの業務が終了いたしました。業務終了時刻18時00分です。次回出勤は月日9時00分からです。" class="btn btn-border-shadow btn-border-shadow--color">
+            <a href="mailto:gio-staff@mayass.com?subject=【退勤】平井椋太&amp;body=お疲れ様です。平井椋太です。NTTマーケティングアクトでの業務が終了いたしました。業務終了時刻18時00分です。次回出勤は月日9時00分からです。" class="btn btn-border-shadow btn-border-shadow--color">
                 退勤
             </a>
         </div>
@@ -89,5 +109,7 @@
             <a href="mailto:gio-staff@mayass.com?subject=【退勤】&amp;body=お疲れ様です。です。%0D%0ANTTマーケティングアクトでの業務が終了いたしました。%0D%0A業務終了時刻18時30分です。%0D%0A%0D%0A次回出勤は月日9時00分からです。">残業30分</a>
         </div>
     </div>
+
+    
 </body>
 </html>
