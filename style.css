@@ -2,7 +2,6 @@ a {
     text-decoration: none;
 }
 
-
 header {
     background-color: #C691A5;
     display: flex;
@@ -14,6 +13,41 @@ header {
 h3 {
     margin: 0.3rem 0 0 0;
     padding-left: 1rem;
+}
+
+.fortune , a{
+    text-align: center;
+    text-decoration: none;
+    color: #212529;
+}
+
+.table-scroll{
+    overflow-x: scroll;
+}
+
+table{
+    width: 1000px;
+}
+
+td {
+    text-align: center;
+}
+
+table,th,td{
+    border: 1px solid #333;
+}
+
+th,td {
+    width: 30px;
+}
+
+thead th{
+    background-color: #c691a5;
+    color: #333;
+}
+
+tbody th{
+    background-color: #eee;
 }
 
 .overtime-btn {
