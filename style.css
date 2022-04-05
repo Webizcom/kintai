@@ -37,6 +37,10 @@ table,th,td{
     border: 1px solid #333;
 }
 
+th {
+    position: sticky;
+}
+
 th,td {
     width: 30px;
 }
