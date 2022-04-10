@@ -18,20 +18,20 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
 <script language="JavaScript">
     var date1 = new Date();
-    date1.setDate(date1.getDate() + 1);
-    var tomorrowmonth = date1.getMonth() + 1;
-    var tomorrowday = date1.getDate();
+    date1.setDate(date1.getDate());
+    var month = date1.getMonth();
+    var day = date1.getDate();
 
     var date2 = new Date();
-    date2.setDate(date2.getDate() + 2);
-    var dayaftertomorrowmonth = date2.getMonth() + 1;
-    var dayaftertomorrowday = date2.getDate();
+    date2.setDate(date2.getDate() + 1);
+    var tomorrowmonth = date2.getMonth() + 1;
+    var tomorrowday = date2.getDate();
 
     document.write(
-    "明日は:"+tomorrowmonth + "月" + tomorrowday + "日です"
+    "今日は:" + month + "月" + day + "日です"
     ); 
     document.write(
-    "&emsp;" + "&emsp;" + "後明日は"+dayaftertomorrowmonth + "月" + dayaftertomorrowday + "日です"
+    "&emsp;" + "&emsp;" + "明日は" + tomorrowmonth + "月" + tomorrowday + "日です"
     );
 </script>
 <div class="future"><a href="future.html">今日の運勢を占う◀◀Click！！</a></div>
