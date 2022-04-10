@@ -21,8 +21,10 @@ h3 {
     color: #212529;
 }
 
-.table-scroll{
-    overflow-x: scroll;
+.name {
+    position: sticky;
+    top: 0;
+    left: 0;
 }
 
 table{
