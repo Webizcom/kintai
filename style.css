@@ -15,6 +15,12 @@ h3 {
     padding-left: 1rem;
 }
 
+.future {
+    background-color: #C691A5;
+    text-align: center;
+    margin: 1rem 0;
+}
+
 .fortune , a{
     text-align: center;
     text-decoration: none;
