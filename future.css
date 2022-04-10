@@ -11,6 +11,7 @@ p {
     background-color: rgb(246, 255, 115);
     text-align: center;
     margin: 50px auto 0 auto;
+    padding: 20px;
     width: 80%;
 }
 
@@ -19,6 +20,6 @@ button {
     height: 30px;
 }
 
-.future-words {
+.future-words , .return-button{
     text-align: center;
 }
