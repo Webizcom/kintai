@@ -15,11 +15,14 @@ h3 {
     padding-left: 1rem;
 }
 
+.fortune {
+    background-color: #C691A5;
+}
+
 .fortune , a{
     text-align: center;
     text-decoration: none;
     color: #212529;
-    background-color: #C691A5;
 }
 
 .table-scroll{
