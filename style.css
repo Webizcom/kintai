@@ -27,43 +27,16 @@ h3 {
     color: #212529;
 }
 
-.table-scroll{
-    overflow-x: scroll;
+.shift-container {
+    position: relative;
+    display: flex;
 }
 
-.name {
-    position: sticky;
-    top: 0;
-    left: 0;
-}
-
-table{
-    width: 1000px;
-}
-
-td {
-    text-align: center;
-}
-
-table,th,td{
-    border: 1px solid #333;
-}
-
-th {
-    position: sticky;
-}
-
-th,td {
-    width: 30px;
-}
-
-thead th{
-    background-color: #c691a5;
-    color: #333;
-}
-
-tbody th{
-    background-color: #eee;
+.calendar, .form {
+    text-align: center; 
+    margin: 0.5rem 3.5rem;
+    background-color: #C691A5;
+    width: 5rem;
 }
 
 .overtime-btn {
