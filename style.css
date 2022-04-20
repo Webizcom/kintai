@@ -15,28 +15,43 @@ h3 {
     padding-left: 1rem;
 }
 
-.future {
-    background-color: #C691A5;
-    text-align: center;
-    margin: 1rem 0;
-}
-
 .fortune , a{
     text-align: center;
     text-decoration: none;
     color: #212529;
 }
 
-.shift-container {
-    position: relative;
-    display: flex;
+.table-scroll{
+    overflow-x: scroll;
 }
 
-.calendar, .form {
-    text-align: center; 
-    margin: 0.5rem 3.5rem;
-    background-color: #C691A5;
-    width: 5rem;
+table{
+    width: 1000px;
+}
+
+td {
+    text-align: center;
+}
+
+table,th,td{
+    border: 1px solid #333;
+}
+
+th {
+    position: sticky;
+}
+
+th,td {
+    width: 30px;
+}
+
+thead th{
+    background-color: #c691a5;
+    color: #333;
+}
+
+tbody th{
+    background-color: #eee;
 }
 
 .overtime-btn {
