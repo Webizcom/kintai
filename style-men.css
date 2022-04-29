@@ -1,0 +1,175 @@
+a {
+    text-decoration: none;
+}
+
+.back-btn {
+    margin: 0.6rem 0 0.3rem 6rem;
+}
+
+header {
+    background-color: #C691A5;
+    display: flex;
+    font-size: 1.5rem;
+    height: 50px;
+    width: 23rem;
+    margin-bottom: 0.5rem;
+}
+
+h3 {
+    margin: 0.3rem 0 0 0;
+    padding-left: 1rem;
+}
+
+.fortune , a{
+    text-align: center;
+    text-decoration: none;
+    color: #212529;
+}
+
+.overtime-btn {
+    margin: -1rem 0 0 0;
+    padding-left: 5rem;
+}
+
+.member {
+    position: relative;
+    display:flex;
+    top: 1rem;
+    width: 30rem;
+}
+
+span {
+    color: #c691a5;
+    font-family: 'IM Fell DW Pica SC', serif;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 1.8rem;
+}
+
+.container {
+    margin: 2rem 0 0 2.5rem;
+}
+
+.btn,
+a.btn,
+button.btn {
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.5;
+    position: relative;
+    display: inline-block;
+    padding: 1rem 4rem;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    color: #212529;
+    border-radius: 0.5rem;
+}
+
+a.btn-border-shadow {
+    padding: calc(1.5rem - 1.2rem) 3rem 1.5rem;
+    background: #fff;
+}
+
+a.btn-border-shadow:before {
+    position: absolute;
+    top: -1rem;
+    left: -1rem;
+    width: 100%;
+    height: 100%;
+    content: "";
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    border: 0.3rem solid #000;
+    border-radius: 0.5rem;
+}
+
+a.btn-border-shadow:hover {
+    padding: calc(1.5rem - 0.6rem) 3rem;
+}
+
+a.btn-border-shadow:hover:before {
+    top: 0;
+    left: 0;
+}
+
+a.btn-border-shadow--color {
+    border-radius: 0;
+    background: orange;
+}
+
+a.btn-border-shadow--color:before {
+    border-radius: 0;
+}
+
+.overtime {
+    margin: 1rem;
+}
+
+.overtime-A, .overtime-B, .overtime-C {
+    position: relative;
+    display:flex;
+    top: 0;
+    width: 20rem;
+}
+
+#overtime-title {
+    font-style: italic;
+    text-align: center;
+    background-color: #C691A5;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 2rem 0;
+}
+
+.overtime a {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: 0 auto;
+    padding: 0.8rem 1.2em;
+    width: 7rem;
+    color: #333;
+    font-size: 1.2rem;
+    font-weight: 600;
+    background-color: #c691a5;
+    transition: 0.3s;
+}
+
+.overtime a::before {
+    content: '';
+    position: absolute;
+    top: -0.5rem;
+    left: -0.5rem;
+    width: calc(100% - 0.2rem);
+    height: calc(100% - 0.4rem);
+    border: 0.2rem solid #3d9ec8;
+    transition: 0.2s;
+}
+
+.overtime a::after {
+    content: '';
+    width: 0.5rem;
+    height: 0.5rem;
+    border-top: 0.3rem solid #333333;
+    border-right: 0.3rem solid #333333;
+    transform: rotate(45deg);
+}
+
+.overtime a:hover::before {
+    top: 0;
+    left: 0;
+}
+
+.overtime a:hover {
+    text-decoration: none;
+    background-color: #a0c4d3;
+}

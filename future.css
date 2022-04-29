@@ -1,0 +1,26 @@
+body {
+    background-color:rgb(228, 93, 93);
+}
+
+p {
+    text-align:center;
+    font-size: 20px;
+}
+
+.future-main {
+    background-color: rgb(246, 255, 115);
+    text-align: center;
+    margin: 50px auto 0 auto;
+    padding: 20px;
+    width: 80%;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+}
+
+.future-words , .return-button{
+    text-align: center;
+}
+
